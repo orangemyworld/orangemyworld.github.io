@@ -15,6 +15,9 @@ class StartScreen extends Component {
                         <h1 className="window__focus window__focus--sm">เลขไทย</h1>
                         <h2>Lek Thai</h2>
                         <p>แปลเลข EN to TH ในเวลาที่กำหนด!</p>
+                        <p>วิธีเล่น</p>
+                        <p>กรอกตัวอักษรตามตัวเลข เช่น 17 = สิบเจ็ด</p>
+                          <p>สามารถปรับระดับความยากง่ายได้ที่มุมซ้ายบน</p>
                         <ul className="list-inline">
                             {(hasPersonalBest) && (
                                 <li><h3 className="zero-bottom"><strong>สถิติ:</strong> { personalBest }</h3></li>

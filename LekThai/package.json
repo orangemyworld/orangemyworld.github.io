@@ -22,7 +22,7 @@
     "edit",
     "webpack"
   ],
-
+  
   "devDependencies": {
     "autoprefixer": "^6.3.3",
     "babel-core": "^6.0.20",
